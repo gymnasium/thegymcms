@@ -18,6 +18,7 @@ exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
   - 'README.md'
+  - 'netlify.toml'
 
 repository: gymnasium/thegymcms
 
