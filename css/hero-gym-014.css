@@ -1,0 +1,154 @@
+/* --- hero banner / gym-014 / atomic design --- */
+
+.ux-design {
+  background-color: #5ca5a0;
+  padding: 0;
+}
+
+.ux-design header,
+.ux-design p a:link,
+.ux-design p a:visited,
+.ux-design p a:link:hover,
+.ux-design p a:link:focus,
+.ux-design p a:link:active {
+  font-family: inherit;
+  color: #fff;
+}
+
+.ux-design p a {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #f8971d !important; /* dangerous override */
+}
+
+.ux-design p a:hover,
+.ux-design p a:focus,
+.ux-design p a:active {
+  border-bottom: 2px solid #fff !important; /* dangerous override */
+}
+
+.hero-promo {
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://gymcms.xyz/home/img/hero-gym-014/bg-pattern-lab.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-promo .container {
+  max-width: 75em;
+  padding: 1.2em 0;
+}
+
+.hero-promo .row {
+  margin: 1.2% 5%;
+}
+
+#atomic-design-atom {
+  display: block;
+  position: relative;
+  max-width: 20em;
+  vertical-align: middle;
+  padding: 3.4em;
+  border: 1em solid #fff;
+  border-radius: 50%;
+  margin: 1em auto .8em;
+}
+
+#atomic-design-atom::before {
+  display: block;
+  position: absolute;
+  top: 1em;
+  right: -.6em;
+  content: "";
+  width: 4.5em;
+  height: 4.5em;
+  background: #f8971d;
+  border-radius: 50%;
+  animation: orbit 24s linear infinite;
+}
+
+@keyframes orbit {
+  from {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(0deg) translateX(7.5em) translateY(-5.5em) rotate(0deg);
+  }
+  to {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(360deg) translateX(7.5em) translateY(-5.5em) rotate(-360deg);
+  }
+}
+
+#atomic-design-atom img {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: 11.125em;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#hero-gym-014 .content {
+  overflow: hidden;
+}
+
+.hero-promo header h1 {
+  line-height: 1.2;
+}
+
+.hero-promo header p {
+  font: normal 1.25em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin-top: .8em;
+  margin-bottom: 0;
+}
+
+.hero-promo .cta {
+  text-align: center;
+  margin-top: 1.8em;
+  margin-bottom: 3em;
+}
+
+a.gym-button-shrink-wrap {
+  width: auto !important;
+  padding: 1.2em 2.2em !important;
+}
+
+@media (min-width: 48em) {
+
+  .hero-promo {
+    background-image: url("https://gymcms.xyz/home/img/hero-gym-014/bg-pattern-lab-wide.png");
+  }
+
+  #atomic-design-atom {
+    float: left;
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 3.2em;
+  }
+
+  .hero-promo .cta {
+    text-align: left;
+    margin-bottom: 3.8em;
+  }
+
+}
+
+/* --- common --- */
+
+/* typographic details */
+
+.no-wrap {
+  white-space: nowrap;
+}
+

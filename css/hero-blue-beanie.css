@@ -1,0 +1,121 @@
+.home {
+  background: none;
+  }
+
+.promo-blue-beanie {
+  background-image: linear-gradient(to top, #00aeef 0%, #007fae 99%, #007fae 100%);
+  background-color: #00aeef;
+  }
+
+.header-blue-beanie img {
+  position: relative;
+  z-index: 0;
+  width: auto%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-top: 1.4em;
+  margin-bottom: 2.8em;
+  }
+
+.header-blue-beanie {
+  font-size: 114.2857142857143%;
+  padding: 1.6em 0 0;
+  }
+
+.header-blue-beanie,
+.header-blue-beanie h1 {
+  text-align: center;
+ }
+
+.header-blue-beanie h1 {
+  color: #fff;
+  line-height: 1.15;
+  }
+
+.header-blue-beanie .all-caps {
+  font: 900 1.6em/1.4 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  }
+
+.header-blue-beanie .no-wrap {
+  white-space: nowrap;
+  }
+
+.header-blue-beanie s {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  }
+
+.header-blue-beanie s:after {
+  display: inline-block;
+  position: absolute;
+  top: 54%;
+  left: -11.5%;
+  content: "";
+  width: 120%;
+  border-top: .15em solid #f8971d;
+  margin-top: -.15em;
+  transform: rotate(10deg);
+  }
+
+@media (min-width: 62em) {
+
+.header-blue-beanie .group {
+  display: block;
+  }
+
+.header-blue-beanie .cta {
+  margin-bottom: -2.8em;
+  }
+
+}
+
+.header-blue-beanie p {
+  font: bold 1.6em/1.4 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e1e1e1;
+  letter-spacing: .05em;
+  margin: .5em 0 0;
+  }
+
+.promo-blue-beanie .cta {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 1.4em 1.2em 0;
+  }
+
+.promo-blue-beanie .cta .gym-button {
+  font-size: 114.2857142857143%;
+  }
+
+.promo-blue-beanie .cta .gym-button  {
+  display: inline-block;
+  color: #fff;
+  width: auto !important; /* dangerous override */
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  background: #222;
+  padding: 1em 2em !important; /* dangerous override */
+  border: 2px solid #fff;;
+  border-radius: 2px;
+  margin: 0 -1em;
+  cursor: pointer;
+  }
+
+.promo-blue-beanie .cta .gym-button:hover,
+.promo-blue-beanie .cta .gym-button:focus,
+.promo-blue-beanie .cta .gym-button:active {
+  background: none;
+  border: 2px solid #fff;
+  }
+
+.cta .gym-button b {
+  font: bold 1.4em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: .02em;
+  vertical-align: baseline;
+  }

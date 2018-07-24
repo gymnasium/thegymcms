@@ -1,0 +1,148 @@
+.home {
+  background: none;
+  }
+
+.hero-fwl-live-event {
+  position: relative;
+  background-color: #d73158;
+  background-image: radial-gradient(rgb(172, 33, 66) 5%, transparent 0);
+  background-position: center top;
+  background-size: 2em 2em;
+  padding: 1.4em 0 4.2em;
+  overflow: hidden;
+  }
+
+.hero-fwl-live-event .course-artwork {
+  width: 75%;
+  text-align: center;
+  margin: -1% auto -1.8em;
+  overflow: hidden;
+  }
+
+.hero-fwl-live-event .course-artwork img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  }
+
+.hero-fwl-live-event header {
+  max-width: 24em;
+  text-align: center;
+  margin: 0 auto .6em;
+  }
+
+.hero-fwl-live-event header a {
+  display: inline-block;
+  background-color: #fff;
+  background-image: linear-gradient(to right, #f8971d 1px, transparent 1px), linear-gradient(to bottom, #f8971d 1px, transparent 1px);
+  background-position: center center;
+  background-size: 1em 1em;
+  padding: .8em 1.2em 0;
+  border: 1.2em solid #fff;
+  }
+
+.home .hero-fwl-live-event header a:hover,
+.home .hero-fwl-live-event header a:focus,
+.home .hero-fwl-live-event header a:active {
+  border-bottom: 1.2em solid #fff;
+  }
+
+.hero-fwl-live-event header h1 {
+  font-size: 4.5em;
+  line-height: 1.15;
+  letter-spacing: .05em;
+  word-spacing: -.025em;
+  color: #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+.hero-fwl-live-event header span.small {
+  display: block;
+  font-weight: inherit;
+  font-size: 50%;
+  color: #222;
+  margin-left: .125em;
+  margin-bottom: .125em;
+  }
+
+.hero-fwl-live-event header h2 {
+  color: #222;
+  margin: .405em .125em 0;
+  }
+
+.hero-fwl-live-event header p {
+  font: normal 1.8em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-top: .8em;
+  margin-bottom: 0;
+  }
+
+.hero-fwl-live-event header p.byline {
+  font-weight: bold;
+  }
+
+.hero-fwl-live-event .cta {
+  text-align: center;
+  padding: 1.4em 0 0;
+  clear: both;
+  }
+
+.hero-fwl-live-event .cta .gym-button {
+  font-size: 120%;
+  }
+
+.hero-fwl-live-event .cta .gym-button  {
+  display: inline-block;
+  color: #fff;
+  width: auto !important; /* dangerous override */
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  background: #222;
+  padding: 1em 2em !important; /* dangerous override */
+  border: 2px solid #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  }
+
+.hero-fwl-live-event .cta .gym-button:hover,
+.hero-fwl-live-event .cta .gym-button:focus,
+.hero-fwl-live-event .cta .gym-button:active {
+  background: #d73158;
+  border: 2px solid #fff;
+  }
+
+.hero-fwl-live-event .gym-button b {
+  font: bold 1.4em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: .02em;
+  vertical-align: baseline;
+  }
+
+@media (min-width: 36em) {
+
+.hero-fwl-live-event header {
+  width: 90%;
+  max-width: 36em;
+  }
+
+}
+
+@media (min-width: 64em) {
+
+.hero-fwl-live-event {
+  padding-top: 2em;
+  }
+
+.hero-fwl-live-event header {
+  width: 100%;
+  max-width: none;
+  }
+
+.hero-fwl-live-event header h2 {
+  text-align: center;
+  }
+
+}

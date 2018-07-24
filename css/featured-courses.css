@@ -1,0 +1,349 @@
+/* --- structure / featured courses --- */
+
+.list-featured-courses {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  }
+
+.list-featured-courses li {
+  margin: 0 0 1.6em;
+  }
+
+.list-featured-courses article {
+  background: #f8f8f8;
+  }
+
+.list-featured-courses .development {
+  background: #d73158;
+  }
+
+.list-featured-courses .scripting {
+  background: #764c9f;
+  }
+
+.list-featured-courses .ux {
+  background: #5ca5a0;
+  }
+
+.list-featured-courses a:hover {
+  border-bottom: 0 !important; /* dangerous override */
+  }
+
+/* --- figures and images / featured courses --- */
+
+.featured-course figure {
+  text-align: center;
+  }
+
+.featured-course figure a {
+  display: block;
+  overflow: hidden;
+  }
+
+.featured-course figure img {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  vertical-align: middle;
+  margin: -3.5% 0 -1.5%;
+  }
+
+.featured-course figcaption {
+  font: normal .85em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: .075em;
+  word-spacing: .1em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 0;
+  }
+
+/* --- typography / featured courses --- */
+
+.featured-course header {
+  min-height: 27.25em;
+  padding: 1.2em;
+  }
+
+.list-featured-courses .featured-course header h2 {
+  font: 900 1.6em/1.2 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+.featured-course header h2 a,
+.featured-course header h2 a:hover,
+.featured-course header h2 a:focus,
+.featured-course header h2 a:active {
+  font: inherit;
+  text-decoration: none;
+  }
+
+.featured-course header p {
+  font: 500 1.1em/1.4 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: .05em;
+  margin: .5em 0 0;
+  }
+
+/* --- info / featured courses --- */
+
+.featured-course .info div:first-child {
+  position: relative;
+  top: 2px;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  }
+
+.featured-course .info dl {
+  padding: 1em 0 1.2em;
+  margin: 0 1.2em;
+  border-bottom: 1px dashed #ccc;
+  }
+
+.featured-course .development .info dl {
+  color: #d73158;
+  border-bottom-color: #d73158;
+  }
+
+.featured-course .scripting .info dl {
+  color: #764c9f;
+  border-bottom-color: #764c9f;
+  }
+
+.featured-course .ux .info dl {
+  color: #5ca5a0;
+  border-bottom-color: #5ca5a0;
+  }
+
+.featured-course .info dt,
+.featured-course .info dd {
+  font: normal 1.1em/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+/* --- call-to-action / featured courses --- */
+
+.featured-course .cta,
+.about-featured-courses .cta {
+  text-align: center;
+  padding: 1.4em 1.2em;
+  }
+
+.about-featured-courses .cta {
+  padding-bottom: 0;
+  }
+
+/* --- about / featured courses --- */
+
+.about-featured-courses {
+  margin: .6em 5% 0;
+  }
+
+@media (min-width: 75em) {
+
+.about-featured-courses {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+}
+
+.about-featured-courses p {
+  font: bold 1.6em/1.4 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444 !important; /* dangerous override */
+  }
+
+/* --- text-related details --- */
+
+/* text no wrap */
+
+.no-wrap {
+  white-space: nowrap;
+  }
+
+@media (min-width: 36em) {
+
+.list-featured-courses {
+  padding: 0 1px;
+  overflow: hidden;
+  }
+
+.list-featured-courses li {
+  position: relative;
+  left: 1px;
+  float: left;
+  width: 50%;
+  border-left: 1px dashed #ccc;
+  margin: 0 0 1.6em -1px;
+  }
+
+.list-featured-courses li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  }
+
+.featured-course .info div:first-child {
+  margin-left: -1px;
+  }
+
+.featured-course:first-child .info div:first-child,
+.featured-course:first-child .info div:nth-child(odd) {
+  margin-left: 0;
+  }
+
+}
+
+@media (min-width: 60em) {
+
+.list-featured-courses {
+  padding: 0 1px 0 2px;
+  }
+
+.list-featured-courses li {
+  width: 33.333333333333333%;
+  }
+
+.list-featured-courses li:last-child {
+  display: none;
+  }
+
+.featured-course header h2 {
+  font-size: 1.8em;
+  }
+
+.featured-course .info dt {
+  font-size: 1.3em;
+  }
+
+.featured-course .info dd {
+  font-size: 1.15em;
+  }
+
+}
+
+@media (min-width: 80em) {
+
+.list-featured-courses {
+  padding: 0 1px;
+  }
+
+.list-featured-courses li {
+  width: 25%;
+  }
+
+.list-featured-courses li:last-child {
+  display: block;
+  }
+
+.featured-course figure img {
+  max-width: 100%;
+  }
+
+}
+
+@supports (display: grid) {
+
+@media (min-width: 36em) {
+
+.list-featured-courses,
+.list-featured-courses li,
+.list-featured-courses article,
+.list-featured-courses .info {
+  display: grid;
+  }
+
+.list-featured-courses {
+  grid-template-columns: repeat(2, 1fr);
+  overflow: visible;
+  }
+
+.list-featured-courses li {
+  float: none;
+  width: auto;
+  }
+
+.featured-course .info {
+  align-items: end;
+  }
+
+}
+
+@media (min-width: 60em) {
+
+.list-featured-courses {
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  }
+
+}
+
+@media (min-width: 80em) {
+
+.list-featured-courses {
+  grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+}
+
+/* --- fix / to-do / gym-button --- */
+
+.list-featured-courses .gym-button,
+.about-featured-courses .gym-button {
+  display: inline-block;
+  color: #fff;
+  width: auto !important; /* dangerous override */
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  background: #f8971d;
+  padding: 1em 2em !important; /* dangerous override */
+  border: 0;
+  border-radius: 2px;
+  margin: 0 -1em;
+  cursor: pointer;
+  }
+
+.list-featured-courses .gym-button b,
+.about-featured-courses .gym-button b {
+  font: bold 1.4em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: .02em;
+  vertical-align: baseline;
+  }
+
+/* --- dangerous overrides --- */
+
+.featured-course header,
+.about-featured-courses,
+.list-featured-courses .gym-button,
+.about-featured-courses .gym-button {
+  font-size: 114.2857142857143%;
+  }
+
+.featured-course figure *,
+.featured-course header *,
+.featured-course .cta *,
+.about-featured-courses .cta * {
+  color: #fff !important;
+  }
+
+.featured-course .development .info * {
+  color: #d73158;
+  }
+
+.featured-course .scripting .info * {
+  color: #764c9f;
+  }
+
+.featured-course .ux .info * {
+  color: #5ca5a0;
+  }

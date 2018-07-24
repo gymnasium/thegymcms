@@ -1,0 +1,138 @@
+.home {
+  background: none;
+  }
+
+#badges {
+  background: #cdc0af;
+  background: linear-gradient(45deg, #b6a38b, #cdc0af, #b6a38b);
+  }
+
+.hero-promo {
+  position: relative;
+  overflow: hidden;
+  }
+
+.hero-promo .cta {
+  margin-top: 1.8em;
+  margin-bottom: 3.6em;
+  }
+
+.block {
+  display: block;
+  }
+
+a.gym-button-shrink-wrap {
+  width: auto !important;
+  padding: 1.2em 2.2em !important;
+  }
+
+#badges .row,
+#badges .cta {
+  text-align: center;
+  }
+
+#badges .col {
+  display: inline-block;
+  text-align: left;
+  }
+
+#badges h1 {
+  font-size: 2.6em;
+  margin-bottom: .4em;
+  }
+
+#badges p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 0;
+  }
+
+#badges .row {
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/exam-badges.png") no-repeat center 19.875em;
+  background-size: contain;
+  padding-bottom: 70%;
+  }
+
+@media (min-width: 32em) {
+
+.hero-promo {
+  position: relative;
+  padding: 2.5em 5%;
+  overflow: hidden;
+  }
+
+#badges .row {
+  background: none;
+  padding-bottom: 0;
+  }
+
+#badges .col {
+  position: relative;
+  left: -7.6em;
+  padding: 0 2.4em;
+  margin: 0 auto;
+  }
+
+#badges .col:before {
+  display: block;
+  position: absolute;
+  top: -1.2em;
+  left: -20.5em;
+  width: 20.5em;
+  height: 25em;
+  content: "";
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/badges.png") no-repeat right top;
+  margin-left: -5%;
+  }
+
+#badges .col:after {
+  display: block;
+  position: absolute;
+  top: -1.2em;
+  right: -36.25em;
+  width: 36.25em;
+  height: 25em;
+  content: "";
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/exam-badges.png") no-repeat left top;
+  margin-right: -5%;
+  }
+
+#badges .cta {
+  text-align: left;
+  }
+
+}
+
+@media
+(min-resolution: 200dpi),
+(min-resolution: 1.25dppx) {
+
+#badges .row {
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/exam-badges-2x.png") no-repeat center 19.875em;
+  background-size: contain;
+  }
+
+}
+
+@media
+(min-width: 32em) and
+(min-resolution: 200dpi),
+(min-width: 32em) and
+(min-resolution: 1.25dppx) {
+
+#badges .row {
+  background: none;
+  }
+
+#badges .col:before {
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/badges-2x.png") no-repeat right top;
+  background-size: 283px 360px;
+  }
+
+#badges .col:after {
+  background: transparent url("https://gymcms.xyz/home/img/hero-promo-badges/exam-badges-2x.png") no-repeat left top;
+  background-size: 505px 360px;
+  }
+
+}
