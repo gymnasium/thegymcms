@@ -4,16 +4,17 @@ services:
     image: jekyll/jekyll:latest
 
     # Build to test staging deployment
-    #command: jekyll build --config _dev-config.yml
+    #command: jekyll build --config _config/_staging-config.yml
 
     # Build to test  production deployment
-    #command: jekyll build --config _production-config.yml
+    #command: jekyll build --config _config/_production-config.yml
 
     # Build to test development deployment
-    #command: jekyll build --config _production-config.yml
+    #command: jekyll build --config _config/_dev-config.yml
 
     # Build and Serve locally
-    command: jekyll serve --config _production-config.yml --watch --force_polling
+    #command: jekyll serve --config _config/_dev-config.yml --watch --force_polling
+    command: jekyll serve --config _config/_dev-config.yml --watch --force_polling
     ports:
         - 4000:4000
         - 35729:35729
